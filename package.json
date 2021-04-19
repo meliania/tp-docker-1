@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:kecsou/tp-docker-1.git",
   "author": "kecsou <kevin.voyer.developpeur@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.5.0"
+  }
 }
