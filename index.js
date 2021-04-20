@@ -18,7 +18,7 @@ if (PORT !== 80) {
 app.use(helmet());
 
 app.get('/', (_, res) => {
-    res.send('Well done');
+    res.status(200).send('Well done');
 });
 
 app.listen(PORT, () => {
