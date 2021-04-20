@@ -21,8 +21,11 @@ app.get('/', (_, res) => {
     res.status(200).send('Well done');
 });
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
     console.log(`App is listening on port: ${PORT}`);
 });
 
-module.exports = app;
+module.exports = {
+    app,
+    server,
+};
