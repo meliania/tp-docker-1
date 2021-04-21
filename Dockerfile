@@ -10,7 +10,6 @@ RUN chmod +x /app/docker-entrypoint.sh
 COPY package.json /app
 COPY yarn.lock /app
 COPY index.js /app
-COPY src/ /app/src/
 
 WORKDIR /app
 

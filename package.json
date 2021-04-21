@@ -6,6 +6,7 @@
   "author": "kecsou <kevin.voyer.developpeur@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
   "dependencies": {
